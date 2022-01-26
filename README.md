@@ -4,7 +4,8 @@ Pytorch-Template
 # File Structure
 refer to https://github.com/miracleyoo/pytorch-lightning-template
 
-''''
+
+```
 root-
 	|-data
 		|-__init__.py
@@ -20,4 +21,4 @@ root-
 		|-...
 	|-main.py
 	|-utils.py
-''''
+```
