@@ -1,3 +1,4 @@
-from .data_interface import AbstractDataInterface
 
-__all__ = ['AbstractDataInterface']
+from .abstract_dataset import AbstractDataSet
+
+__all__ = [ 'AbstractDataSet']
