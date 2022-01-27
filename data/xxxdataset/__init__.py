@@ -1,4 +1,4 @@
-from .xxx_dataset import xxx_dataset
-from .xxx_data_interface import xxx_data_interface
+from .xxx_dataset import XXXDataSet
+from .xxx_data_interface import XXXDataLoader
 
-__all__ = ['xxx_dataset', 'xxx_data_interface']
+__all__ = ['XXXDataSet', 'XXXDataLoader']

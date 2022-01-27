@@ -11,12 +11,12 @@ class AbstractDataSet(data.Dataset):
     r'''AbstractDataSet class 
 
     Args:
-        data_dir:           directory of xxxdataset, 
+        data_dir:           (str) directory of xxxdataset, 
                             e.g. data/xxxdataset/xxx_raw_data
-        file_list_type:     type of the file list of collected raw dataset, 
+        file_list_type:     (str) type of the file list of collected raw dataset, 
                             could be csv...(csv, json)
-        file_list_type:     file name of the file list, default to be 'file_list'
-        test_size:          test dataset size used to separate dataset,
+        file_list_type:     (str) file name of the file list, default to be 'file_list'
+        test_size:          (float/double) test dataset size used to separate dataset,
                             default to be 0.2
 
     Outputs:

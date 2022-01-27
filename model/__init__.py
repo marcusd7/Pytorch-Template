@@ -1,3 +1,3 @@
-from .model_interface import AbstractModelInterface
+from .model_interface import AbstractModel
 
-__all__ = ['AbstractModelInterface']
+__all__ = ['AbstractModel']
